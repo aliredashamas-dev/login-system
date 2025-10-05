@@ -11,12 +11,12 @@ while attempts < 3:
     password = input("enter password:")
 
     if username == stored_username and password == stored_password:
-    print("login_successful")
-    logged_in = True
-    break
+    	print("login_successful")
+    	logged_in = True
+    	break
     else:
-    attempts += 1
-    print("incorrect credentials. Attempts left:", 3 - attempts)
+    	attempts += 1
+    	print("incorrect credentials. Attempts left:", 3 - attempts)
 
     if not logged_in:
         print("account locked")
