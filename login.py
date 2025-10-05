@@ -21,7 +21,7 @@ while attempts < 3:
     if not logged_in:
         print("account locked")
 
-N = int(input("enter a number: 5"))
+N = int(input("enter a number: "))
 print(f"prime numbers between 2 and {N} are:1")
 for num in range(2, N + 1):
     is_prime = True
